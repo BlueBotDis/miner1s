@@ -117,7 +117,7 @@ client.on('message', message => {
 
 
 client.on('ready', () => {
-  client.channels.find(ch => ch.id === "505795182990721037" && ch.type === 'voice').join();//اكتب اي دي روم صوت هنا
+  client.channels.find(ch => ch.id === "508330495927648280" && ch.type === 'voice').join();//اكتب اي دي روم صوت هنا
 });
 
 
