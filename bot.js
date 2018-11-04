@@ -120,5 +120,10 @@ client.on('ready', () => {
   client.channels.find(ch => ch.id === "508330495927648280" && ch.type === 'voice').join();//اكتب اي دي روم صوت هنا
 });
 
+client.on('ready', () => {
+    console.log(`Logged in as ${client.user.tag} !`);
+          client.user.setActivity("Im Miner So I Love it🛠",{type: 'WATCHING'});
+  
+  });
 
 client.login(process.env.BOT_TOKEN);  //لا تحط التوكن حقك هنا
